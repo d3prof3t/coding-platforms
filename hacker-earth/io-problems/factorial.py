@@ -1,0 +1,14 @@
+"""
+This module finds the factorial
+of a number
+"""
+
+num = int(input())
+
+def factorial(num):
+    if num == 0:
+        return 1
+    else:
+        return num * factorial(num - 1)
+
+print(factorial(num))
